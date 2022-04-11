@@ -1,5 +1,6 @@
 {
     "name": "newageerp/sf-newageerp",
+    "description": "all newageerp packages",
     "type": "symfony-bundle",
     "autoload": {
         "psr-4": {
