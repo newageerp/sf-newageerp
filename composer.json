@@ -1,0 +1,35 @@
+{
+    "name": "newageerp/sf-newageerp",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Newageerp\\SfNewageerp\\": ""
+        }
+    },
+    "require": {
+        "newageerp/sf-auth": "0.0.8",
+        "newageerp/sf-base-entity": "0.0.8",
+        "newageerp/sf-bookmarks": "0.0.4",
+        "newageerp/sf-crud": "0.0.2",
+        "newageerp/sf-files": "0.0.8",
+        "newageerp/sf-follow-up": "0.0.2",
+        "newageerp/sf-mailjet": "0.0.1",
+        "newageerp/sf-mails": "0.0.3",
+        "newageerp/sf-messenger": "0.0.1",
+        "newageerp/sf-notes": "0.0.2",
+        "newageerp/sf-pdf": "0.0.7",
+        "newageerp/sf-permissions": "0.0.1",
+        "newageerp/sf-push-messages": "0.0.4",
+        "newageerp/sf-serial-number": "0.0.1",
+        "newageerp/sf-serializer": "0.0.1",
+        "newageerp/sf-socket": "0.0.1",
+        "newageerp/sf-tasks": "0.0.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arturas Jegorenkovas",
+            "email": "info@newageerp.com"
+        }
+    ]
+}
