@@ -25,7 +25,8 @@
         "newageerp/sf-serial-number": "0.0.1",
         "newageerp/sf-serializer": "0.0.1",
         "newageerp/sf-socket": "0.0.1",
-        "newageerp/sf-tasks": "0.0.3"
+        "newageerp/sf-tasks": "0.0.3",
+        "newageerp/sf-uservice": "0.0.2"
     },
     "license": "MIT",
     "authors": [
