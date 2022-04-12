@@ -29,3 +29,34 @@ NAE_SFS_FRONT_URL=
 
 ## push-messages 
 NAE_SFPUSHMESSAGE_FIREBASE_KEY=
+
+## uservice 
+NAE_SFS_PROPERTIES_FILE_PATH=
+NAE_SFS_SCHEMAS_FILE_PATH=
+
+
+# CONTROLLERS
+config/routes/annotations.yaml
+sf_auth:
+    resource: '@NewageerpSfAuthBundle/Controller'
+    type:     annotation
+sf_files:
+    resource: '@NewageerpSfFilesBundle/Controller'
+    type:     annotation
+sf_mails:
+    resource: '@NewageerpSfMailBundle/Controller'
+    type:     annotation
+sf_notes:
+    resource: '@NewageerpSfNotesBundle/Controller'
+    type:     annotation
+sf_pdf:
+    resource: '@NewageerpSfPdfBundle/Controller'
+    type:     annotation
+sf_uservice:
+    resource: '@NewageerpSfUserviceBundle/Controller'
+    type:     annotation
+
+# MESSAGE HANDLERS
+config/services.yaml
+    Newageerp\SfNotes\Messenger\NotesReadAllMessageHandler:
+        tags: [messenger.message_handler]
