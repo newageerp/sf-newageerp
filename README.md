@@ -6,6 +6,9 @@ AUTH_KEY=
 ## base-entity 
 AUTH_KEY=
 
+## export 
+NAE_SFS_PUBLIC_DOC_DIR=
+
 ## files 
 NAE_SFFILES_STORAGE_DIR=
 NAE_SFFILES_STORAGE_PUBLIC_DIR=
@@ -40,8 +43,14 @@ config/routes/annotations.yaml
 sf_auth:
     resource: '@NewageerpSfAuthBundle/Controller'
     type:     annotation
+sf_export:
+    resource: '@NewageerpSfExportBundle/Controller'
+    type:     annotation
 sf_files:
     resource: '@NewageerpSfFilesBundle/Controller'
+    type:     annotation
+sf_import:
+    resource: '@NewageerpSfImportBundle/Controller'
     type:     annotation
 sf_mails:
     resource: '@NewageerpSfMailBundle/Controller'
