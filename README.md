@@ -52,6 +52,9 @@ config/routes/annotations.yaml
 sf_auth:
     resource: '@NewageerpSfAuthBundle/Controller'
     type:     annotation
+sf_controlpanel:
+    resource: '@NewageerpSfControlpanelBundle/Controller'
+    type:     annotation
 sf_export:
     resource: '@NewageerpSfExportBundle/Controller'
     type:     annotation
