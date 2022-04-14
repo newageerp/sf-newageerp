@@ -6,6 +6,10 @@ AUTH_KEY=
 ## base-entity 
 AUTH_KEY=
 
+## controlpanel 
+NAE_SFS_CP_STORAGE_PATH=
+NAE_SFS_CP_DB_PATH=
+
 ## export 
 NAE_SFS_PUBLIC_DOC_DIR=
 
