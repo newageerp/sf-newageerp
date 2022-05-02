@@ -33,7 +33,7 @@
         "newageerp/sf-socket": "0.0.1",
         "newageerp/sf-tasks": "0.0.3",
         "newageerp/sf-uservice": "0.0.5",
-        "newageerp/sf-xlsx": "0.0.2"
+        "newageerp/sf-xlsx": "0.0.3"
     },
     "license": "MIT",
     "authors": [
