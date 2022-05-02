@@ -85,6 +85,9 @@ sf_pdf:
 sf_uservice:
     resource: '@NewageerpSfUserviceBundle/Controller'
     type:     annotation
+sf_xlsx:
+    resource: '@NewageerpSfXlsxBundle/Controller'
+    type:     annotation
 
 # MESSAGE HANDLERS
 config/services.yaml
