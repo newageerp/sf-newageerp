@@ -3,6 +3,7 @@
 ## auth 
 AUTH_KEY=
 NAE_SFS_MAILJET_DEFAULT_SENDER=
+NAE_SFS_FRONT_URL=
 
 ## base-entity 
 AUTH_KEY=
