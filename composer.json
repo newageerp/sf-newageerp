@@ -10,7 +10,7 @@
     "require": {
         "newageerp/sf-auth": "0.0.13",
         "newageerp/sf-base-entity": "0.0.9",
-        "newageerp/sf-bookmarks": "0.0.5",
+        "newageerp/sf-bookmarks": "0.0.6",
         "newageerp/sf-client": "0.0.2",
         "newageerp/sf-contact": "0.0.2",
         "newageerp/sf-controlpanel": "0.0.301",
