@@ -91,6 +91,9 @@ config/routes/annotations.yaml
 sf_auth:
     resource: '@NewageerpSfAuthBundle/Controller'
     type:     annotation
+sf_bookmarks:
+    resource: '@NewageerpSfBookmarksBundle/Controller'
+    type:     annotation
 sf_controlpanel:
     resource: '@NewageerpSfControlpanelBundle/Controller'
     type:     annotation
