@@ -103,6 +103,9 @@ sf_export:
 sf_files:
     resource: '@NewageerpSfFilesBundle/Controller'
     type:     annotation
+sf_follow-up:
+    resource: '@NewageerpSfFollowUpBundle/Controller'
+    type:     annotation
 sf_import:
     resource: '@NewageerpSfImportBundle/Controller'
     type:     annotation
