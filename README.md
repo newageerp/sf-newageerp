@@ -101,6 +101,9 @@ sf_bookmarks:
 sf_controlpanel:
     resource: '@NewageerpSfControlpanelBundle/Controller'
     type:     annotation
+sf_currency:
+    resource: '@NewageerpSfCurrencyBundle/Controller'
+    type:     annotation
 sf_export:
     resource: '@NewageerpSfExportBundle/Controller'
     type:     annotation
