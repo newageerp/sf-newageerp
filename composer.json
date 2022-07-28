@@ -9,7 +9,7 @@
     },
     "require": {
         "newageerp/sf-auth": "0.0.15",
-        "newageerp/sf-base-entity": "0.0.10",
+        "newageerp/sf-base-entity": "0.0.11",
         "newageerp/sf-bookmarks": "0.0.9",
         "newageerp/sf-client": "0.0.2",
         "newageerp/sf-contact": "0.0.2",
