@@ -125,6 +125,9 @@ sf_notes:
 sf_pdf:
     resource: '@NewageerpSfPdfBundle/Controller'
     type:     annotation
+sf_status:
+    resource: '@NewageerpSfPdfBundle/Controller'
+    type:     annotation
 sf_uservice:
     resource: '@NewageerpSfUserviceBundle/Controller'
     type:     annotation
