@@ -126,7 +126,7 @@ sf_pdf:
     resource: '@NewageerpSfPdfBundle/Controller'
     type:     annotation
 sf_status:
-    resource: '@NewageerpSfPdfBundle/Controller'
+    resource: '@NewageerpSfStatusBundle/Controller'
     type:     annotation
 sf_uservice:
     resource: '@NewageerpSfUserviceBundle/Controller'
