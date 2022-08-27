@@ -44,6 +44,10 @@ NAE_SFS_CP_STORAGE_PATH=
 NAE_SFS_CP_STORAGE_PATH=
 NAE_SFS_CP_DB_PATH=
 
+## event-listener 
+NAE_SFS_RBQ_HOST=
+FRONT_URL=
+
 ## export 
 NAE_SFS_PUBLIC_DOC_DIR=
 
@@ -86,11 +90,7 @@ NAE_SFS_PROPERTIES_FILE_PATH=
 NAE_SFS_SCHEMAS_FILE_PATH=
 NAE_SFS_PROPERTIES_FILE_PATH=
 NAE_SFS_SCHEMAS_FILE_PATH=
-NAE_SFS_RBQ_HOST=
-NAE_SFS_RBQ_QUEUE=
 NAE_SFS_CP_STORAGE_PATH=
-NAE_SFS_RBQ_QUEUE=
-NAE_SFS_RBQ_QUEUE=
 
 
 # CONTROLLERS
@@ -106,6 +106,9 @@ sf_controlpanel:
     type:     annotation
 sf_currency:
     resource: '@NewageerpSfCurrencyBundle/Controller'
+    type:     annotation
+sf_event-listener:
+    resource: '@NewageerpSfEventListenerBundle/Controller'
     type:     annotation
 sf_export:
     resource: '@NewageerpSfExportBundle/Controller'
