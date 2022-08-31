@@ -36,7 +36,7 @@
         "newageerp/sf-socket": "0.0.4",
         "newageerp/sf-status": "0.0.18",
         "newageerp/sf-tasks": "0.0.3",
-        "newageerp/sf-uservice": "0.0.28",
+        "newageerp/sf-uservice": "0.0.29",
         "newageerp/sf-xlsx": "0.0.5"
     },
     "license": "MIT",
