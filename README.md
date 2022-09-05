@@ -144,6 +144,9 @@ sf_notes:
 sf_pdf:
     resource: '@NewageerpSfPdfBundle/Controller'
     type:     annotation
+sf_react-templates:
+    resource: '@NewageerpSfReactTemplatesBundle/Controller'
+    type:     annotation
 sf_status:
     resource: '@NewageerpSfStatusBundle/Controller'
     type:     annotation
