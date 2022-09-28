@@ -37,7 +37,7 @@
         "newageerp/sf-socket": "0.0.5",
         "newageerp/sf-status": "0.0.18",
         "newageerp/sf-tasks": "0.0.3",
-        "newageerp/sf-uservice": "0.0.40",
+        "newageerp/sf-uservice": "0.0.41",
         "newageerp/sf-xlsx": "0.0.5"
     },
     "license": "MIT",
@@ -400,7 +400,7 @@
             "type": "package",
             "package": {
                 "name": "newageerp/sf-uservice",
-                "version": "0.0.40",
+                "version": "0.0.41",
                 "source": {
                     "url": "https://github.com/newageerp/sf-uservice",
                     "type": "git",
